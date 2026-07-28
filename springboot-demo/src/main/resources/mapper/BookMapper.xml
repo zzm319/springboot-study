@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+namespace：对应 Mapper 接口全类名，MyBatis 靠它绑定
+<select id="selectById">：id = 接口方法名
+resultType="Book"：返回值类型（配了别名包可简写）
+#{id}：参数占位符，防 SQL 注入（预编译）
+useGeneratedKeys="true" keyProperty="id"：插入后把自增 id 回填到对象
+-->
+<!-- namespace 必须 = Mapper 接口的全限定名 -->
+<mapper namespace="com.study.springbootdemo.mapper.BookMapper">
+    <!-- 查询 -->
+    <select id="selectById" resultType="Book">
+        SELECT id, name, author, create_time FROM book WHERE id = #{id}
+    </select>
+    
+    <select id="selectAll" resultType="Book">
+        SELECT id, name, author, create_time FROM book
+    </select>
+    <!-- 插入 -->
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO book (name, author) VALUES (#{name}, #{author})
+    </insert>
+    
+    <delete id="deleteById">
+        DELETE FROM book WHERE id = #{id}
+    </delete>
+    
+    <update id="updateById">
+        UPDATE book
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="author != null and author != ''">
+                author = #{author},
+            </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+    
+    <!-- <sql id="...">：定义公共 SQL 片段，可复用 -->
+    <sql id="book_condition">
+        <where>
+            <if test="name != null and name != ''">
+                AND name like concat('%', #{name}, '%')
+            </if>
+            <if test="author != null and author != ''">
+                AND author like concat('%', #{author}, '%')
+            </if>
+        </where>
+    </sql>
+
+    <!-- 有条件查询 -->
+    <select id="selectByCondition" resultType="Book">
+        SELECT id, name, author, create_time FROM book
+        <!-- <include refid="...">：引用公共 SQL 片段 -->
+        <include refid="book_condition" />
+    </select>
+    
+    <select id="countByCondition" resultType="long">
+        SELECT COUNT(*) FROM book
+        <include refid="book_condition" />
+    </select>
+    
+    <select id="selectByConditionWithPage" resultType="Book">
+        SELECT id, name, author, create_time FROM book
+        <include refid="book_condition" />
+        LIMIT #{offset}, #{size}
+    </select>
+</mapper>

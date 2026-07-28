@@ -1,0 +1,28 @@
+2026-07-13T10:54:32.877+08:00  INFO 76502 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 76502 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study/springboot-demo)
+2026-07-13T10:54:32.879+08:00 DEBUG 76502 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:54:32.880+08:00  INFO 76502 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:54:32.895+08:00  INFO 76502 --- [springboot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-13T10:54:32.895+08:00  INFO 76502 --- [springboot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-13T10:54:33.188+08:00  INFO 76502 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:54:33.188+08:00  INFO 76502 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:54:33.198+08:00  INFO 76502 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:54:33.431+08:00  INFO 76502 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-13T10:54:33.438+08:00  INFO 76502 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:54:33.438+08:00  INFO 76502 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:54:33.448+08:00  INFO 76502 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 553 ms
+2026-07-13T10:54:33.615+08:00  WARN 76502 --- [springboot-demo] [restartedMain] i.n.r.d.DnsServerAddressStreamProviders  : Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2026-07-13T10:54:33.951+08:00  INFO 76502 --- [springboot-demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-07-13T10:54:33.985+08:00  INFO 76502 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-13T10:54:33.990+08:00  INFO 76502 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 1.245 seconds (process running for 1.382)
+2026-07-13T10:54:34.030+08:00  WARN 76502 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:54:34.030+08:00  WARN 76502 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:55:05.213+08:00  INFO 76502 --- [springboot-demo] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T10:55:05.213+08:00  INFO 76502 --- [springboot-demo] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T10:55:05.213+08:00  INFO 76502 --- [springboot-demo] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-13T10:55:05.232+08:00  INFO 76502 --- [springboot-demo] [http-nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-13T10:55:05.356+08:00  INFO 76502 --- [springboot-demo] [http-nio-8083-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65515f54
+2026-07-13T10:55:05.357+08:00  INFO 76502 --- [springboot-demo] [http-nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-13T10:55:05.563+08:00  INFO 76502 --- [springboot-demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:55:05.564+08:00  INFO 76502 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:55:05.570+08:00  INFO 76502 --- [springboot-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-13T10:55:05.608+08:00  INFO 76502 --- [springboot-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

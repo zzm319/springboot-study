@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:3306/${DB_NAME:study_db}
+    username: ${DB_USER:root}
+    password: ${DB_PASSWORD:123456}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  data:
+    redis:
+      host: ${REDIS_HOST:redis}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:12345}
+      database: ${REDIS_DATABASE:0}
+
+jwt:
+  secret: ${JWT_SECRET:study-demo-jwt-secret-key-2026-min-32-chars}
+
+logging:
+  level:
+    root: WARN
+    com.study.springbootdemo: INFO
+    com.study.springbootdemo.mapper: WARN
+
+springdoc:
+  swagger-ui:
+    enabled: false
+  api-docs:
+    enabled: false

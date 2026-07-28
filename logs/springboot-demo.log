@@ -1,0 +1,703 @@
+2026-07-13T09:27:00.715+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T09:27:00.741+08:00  INFO 14903 --- [springboot-demo] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T09:27:00.743+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T09:27:00.798+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T09:27:00.799+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T09:27:00.799+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T09:27:00.836+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T09:27:00.836+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T09:27:00.837+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T09:27:00.855+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T09:27:00.856+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T09:27:00.856+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T09:27:00.859+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 60 ms
+2026-07-13T09:27:00.913+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T09:27:00.914+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.124 seconds (process running for 3391.963)
+2026-07-13T09:27:00.914+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T09:27:00.914+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T09:27:00.914+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T09:27:11.409+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T09:27:11.411+08:00  INFO 14903 --- [springboot-demo] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T09:27:11.413+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T09:27:11.468+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T09:27:11.468+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T09:27:11.468+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T09:27:11.505+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T09:27:11.505+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T09:27:11.506+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T09:27:11.523+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T09:27:11.524+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T09:27:11.524+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T09:27:11.527+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 58 ms
+2026-07-13T09:27:11.574+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T09:27:11.574+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.115 seconds (process running for 3402.623)
+2026-07-13T09:27:11.574+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T09:27:11.574+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T09:27:11.575+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T09:29:31.318+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T09:29:31.322+08:00  INFO 14903 --- [springboot-demo] [Thread-25] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T09:29:31.323+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T09:29:31.377+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T09:29:31.377+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T09:29:31.377+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T09:29:31.411+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T09:29:31.411+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T09:29:31.412+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T09:29:31.427+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T09:29:31.428+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T09:29:31.428+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T09:29:31.430+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 52 ms
+2026-07-13T09:29:31.476+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T09:29:31.476+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.106 seconds (process running for 3542.525)
+2026-07-13T09:29:31.476+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T09:29:31.476+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T09:29:31.476+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T09:30:02.516+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T09:30:02.516+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T09:30:02.516+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-13T09:30:02.518+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.interceptor.LoginInterceptor       : Token 验证成功, userId=1, userName=test, uri=/book/1
+2026-07-13T09:30:02.519+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.controller.BookController          : 获取书籍信息:1
+2026-07-13T09:30:02.525+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-07-13T09:30:02.540+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6eb3e7b8
+2026-07-13T09:30:02.540+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-07-13T09:30:02.540+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.mapper.BookMapper.selectById       : ==>  Preparing: SELECT id, name, author, create_time FROM book WHERE id = ?
+2026-07-13T09:30:02.540+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.mapper.BookMapper.selectById       : ==> Parameters: 1(Long)
+2026-07-13T09:30:02.542+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.mapper.BookMapper.selectById       : <==      Total: 1
+2026-07-13T09:30:04.048+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-3] c.s.s.interceptor.LoginInterceptor       : Token 验证成功, userId=1, userName=test, uri=/book/1
+2026-07-13T09:30:04.049+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-3] c.s.s.controller.BookController          : 获取书籍信息:1
+2026-07-13T09:30:25.410+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.interceptor.LoginInterceptor       : Token 验证成功, userId=1, userName=test, uri=/book/1
+2026-07-13T09:30:25.410+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.controller.BookController          : 获取书籍信息:1
+2026-07-13T09:32:04.784+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-6] c.s.s.interceptor.LoginInterceptor       : Token 验证成功, userId=1, userName=test, uri=/book/1
+2026-07-13T09:32:04.866+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-6] c.s.s.controller.BookController          : 更新书籍:1
+2026-07-13T09:32:04.868+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-6] c.s.s.mapper.BookMapper.selectById       : ==>  Preparing: SELECT id, name, author, create_time FROM book WHERE id = ?
+2026-07-13T09:32:04.868+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-6] c.s.s.mapper.BookMapper.selectById       : ==> Parameters: 1(Long)
+2026-07-13T09:32:04.870+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-6] c.s.s.mapper.BookMapper.selectById       : <==      Total: 1
+2026-07-13T09:32:04.879+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-6] c.s.s.mapper.BookMapper.updateById       : ==>  Preparing: UPDATE book SET name = ?, author = ? WHERE id = ?
+2026-07-13T09:32:04.880+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-6] c.s.s.mapper.BookMapper.updateById       : ==> Parameters: 阳欣怡(String), anim minim(String), 1(Long)
+2026-07-13T09:32:04.885+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-6] c.s.s.mapper.BookMapper.updateById       : <==    Updates: 1
+2026-07-13T09:32:04.885+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-6] c.s.s.service.impl.BookServiceImpl2      : 书籍ID为1的书籍更新成功,更新信息为:com.study.springbootdemo.entity.Book@1a53086d
+2026-07-13T09:32:04.885+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-6] c.s.s.mapper.BookMapper.selectById       : ==>  Preparing: SELECT id, name, author, create_time FROM book WHERE id = ?
+2026-07-13T09:32:04.886+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-6] c.s.s.mapper.BookMapper.selectById       : ==> Parameters: 1(Long)
+2026-07-13T09:32:04.887+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-6] c.s.s.mapper.BookMapper.selectById       : <==      Total: 1
+2026-07-13T09:32:23.884+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-8] c.s.s.interceptor.LoginInterceptor       : Token 验证成功, userId=1, userName=test, uri=/book/1
+2026-07-13T09:32:23.884+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-8] c.s.s.controller.BookController          : 获取书籍信息:1
+2026-07-13T09:32:23.887+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-8] c.s.s.mapper.BookMapper.selectById       : ==>  Preparing: SELECT id, name, author, create_time FROM book WHERE id = ?
+2026-07-13T09:32:23.887+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-8] c.s.s.mapper.BookMapper.selectById       : ==> Parameters: 1(Long)
+2026-07-13T09:32:23.889+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-8] c.s.s.mapper.BookMapper.selectById       : <==      Total: 1
+2026-07-13T09:32:26.342+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-9] c.s.s.interceptor.LoginInterceptor       : Token 验证成功, userId=1, userName=test, uri=/book/1
+2026-07-13T09:32:26.342+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-9] c.s.s.controller.BookController          : 获取书籍信息:1
+2026-07-13T09:33:10.052+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-2] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6380
+2026-07-13T09:33:10.052+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-1] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/127.0.0.1:6380
+2026-07-13T09:33:10.057+08:00  WARN 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-3] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [localhost/<unresolved>:6380]: Connection reset
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[na:na]
+	at io.netty.buffer.AdaptivePoolingAllocator$AdaptiveByteBuf.setBytes(AdaptivePoolingAllocator.java:2018) ~[netty-buffer-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1139) ~[netty-buffer-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:161) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-07-13T09:33:10.057+08:00  WARN 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-4] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [localhost/<unresolved>:6380]: Connection reset
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[na:na]
+	at io.netty.buffer.AdaptivePoolingAllocator$AdaptiveByteBuf.setBytes(AdaptivePoolingAllocator.java:2018) ~[netty-buffer-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1139) ~[netty-buffer-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:161) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.15.Final.jar:4.2.15.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-07-13T09:33:16.252+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-5] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/<unresolved>:6380
+2026-07-13T09:33:16.252+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-6] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/<unresolved>:6380
+2026-07-13T09:33:16.254+08:00  WARN 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-7] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [localhost/<unresolved>:6380]: Connection refused: localhost/127.0.0.1:6380
+2026-07-13T09:33:16.254+08:00  WARN 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-8] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [localhost/<unresolved>:6380]: Connection refused: localhost/127.0.0.1:6380
+2026-07-13T09:33:17.643+08:00  WARN 14903 --- [springboot-demo] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5310b614 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-07-13T09:33:18.832+08:00  WARN 14903 --- [springboot-demo] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5abc462e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-07-13T09:33:25.153+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-6] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/<unresolved>:6380
+2026-07-13T09:33:25.153+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-5] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/<unresolved>:6380
+2026-07-13T09:33:25.153+08:00  WARN 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-8] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [localhost/<unresolved>:6380]: Connection refused: localhost/127.0.0.1:6380
+2026-07-13T09:33:25.153+08:00  WARN 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-7] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [localhost/<unresolved>:6380]: Connection refused: localhost/127.0.0.1:6380
+2026-07-13T09:33:30.586+08:00  WARN 14903 --- [springboot-demo] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@14c4a1ac (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-07-13T09:33:31.148+08:00  WARN 14903 --- [springboot-demo] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@32161c50 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-07-13T09:33:32.664+08:00  WARN 14903 --- [springboot-demo] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6eb3e7b8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-07-13T09:33:33.353+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-7] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/<unresolved>:6380
+2026-07-13T09:33:33.353+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/<unresolved>:6380
+2026-07-13T09:33:33.355+08:00  WARN 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-10] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [localhost/<unresolved>:6380]: Connection refused: localhost/127.0.0.1:6380
+2026-07-13T09:33:33.355+08:00  WARN 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-9] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [localhost/<unresolved>:6380]: Connection refused: localhost/127.0.0.1:6380
+2026-07-13T09:33:40.145+08:00  WARN 14903 --- [springboot-demo] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@aa3b10a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-07-13T09:33:40.315+08:00  WARN 14903 --- [springboot-demo] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@699281cb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-07-13T09:33:49.749+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-10] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/<unresolved>:6380
+2026-07-13T09:33:49.749+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-9] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/<unresolved>:6380
+2026-07-13T09:33:49.751+08:00  WARN 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-1] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [localhost/<unresolved>:6380]: Connection refused: localhost/127.0.0.1:6380
+2026-07-13T09:33:49.751+08:00  WARN 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-2] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [localhost/<unresolved>:6380]: Connection refused: localhost/127.0.0.1:6380
+2026-07-13T09:34:01.186+08:00  WARN 14903 --- [springboot-demo] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6b64f435 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-07-13T09:34:01.708+08:00  WARN 14903 --- [springboot-demo] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1aa4862a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-07-13T09:34:02.513+08:00  WARN 14903 --- [springboot-demo] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6745d06c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-07-13T09:34:17.869+08:00  WARN 14903 --- [springboot-demo] [HikariPool-3:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Pool is empty, failed to create/setup connection (f916a797-652e-4995-beee-ed390de62364)
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:752) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:731) ~[HikariCP-7.0.2.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:945) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	... 13 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	... 16 common frames omitted
+
+2026-07-13T09:34:19.851+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-4] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/<unresolved>:6380
+2026-07-13T09:34:19.851+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-3] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/<unresolved>:6380
+2026-07-13T09:34:19.853+08:00  WARN 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-3] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [localhost/<unresolved>:6380]: Connection refused: localhost/127.0.0.1:6380
+2026-07-13T09:34:19.853+08:00  WARN 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-4] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [localhost/<unresolved>:6380]: Connection refused: localhost/127.0.0.1:6380
+2026-07-13T09:34:49.952+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-4] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/<unresolved>:6380
+2026-07-13T09:34:49.952+08:00  INFO 14903 --- [springboot-demo] [lettuce-eventExecutorLoop-21-3] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was localhost/<unresolved>:6380
+2026-07-13T09:34:49.962+08:00  INFO 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-6] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6380
+2026-07-13T09:34:49.962+08:00  INFO 14903 --- [springboot-demo] [lettuce-nioEventLoop-23-5] i.l.core.protocol.ReconnectionHandler    : Reconnected to localhost/<unresolved>:6380
+2026-07-13T10:24:37.812+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:24:37.818+08:00  INFO 14903 --- [springboot-demo] [Thread-29] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:24:37.821+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:24:37.832+08:00  INFO 14903 --- [springboot-demo] [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-07-13T10:24:37.836+08:00  INFO 14903 --- [springboot-demo] [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-07-13T10:24:37.914+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:24:37.914+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:24:37.914+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:24:37.963+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:24:37.963+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:24:37.964+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:24:37.985+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:24:37.985+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:24:37.985+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:24:37.988+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 74 ms
+2026-07-13T10:24:38.046+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:24:38.047+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.143 seconds (process running for 6849.098)
+2026-07-13T10:24:38.047+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:24:38.047+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:24:38.047+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:24:53.602+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:24:53.603+08:00  INFO 14903 --- [springboot-demo] [Thread-33] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:24:53.605+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:24:53.659+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:24:53.659+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:24:53.659+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:24:53.698+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:24:53.698+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:24:53.699+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:24:53.716+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:24:53.716+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:24:53.716+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:24:53.719+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 60 ms
+2026-07-13T10:24:53.772+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:24:53.773+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.122 seconds (process running for 6864.823)
+2026-07-13T10:24:53.773+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:24:53.773+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:24:53.773+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:26:09.872+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:26:09.881+08:00  INFO 14903 --- [springboot-demo] [Thread-37] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:26:09.887+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:26:09.988+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:26:09.988+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:26:09.988+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:26:10.031+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:26:10.031+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:26:10.032+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:26:10.052+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:26:10.052+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:26:10.052+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:26:10.056+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 68 ms
+2026-07-13T10:26:10.120+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:26:10.121+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.142 seconds (process running for 6941.171)
+2026-07-13T10:26:10.121+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:26:10.121+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:26:10.121+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:32:11.850+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:32:11.866+08:00  INFO 14903 --- [springboot-demo] [Thread-41] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:32:11.869+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:32:11.948+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:32:11.948+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:32:11.948+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:32:11.993+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:32:11.993+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:32:11.994+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:32:12.014+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:32:12.014+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:32:12.014+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:32:12.017+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 68 ms
+2026-07-13T10:32:12.072+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:32:12.073+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.132 seconds (process running for 7303.123)
+2026-07-13T10:32:12.073+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:32:12.073+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:32:12.073+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:33:15.723+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T10:33:15.724+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T10:33:15.726+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-07-13T10:33:15.730+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.interceptor.LoginInterceptor       : Token 验证成功, userId=1, userName=test, uri=/book
+2026-07-13T10:33:15.741+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.controller.BookController          : 添加书籍:謇超
+2026-07-13T10:33:15.749+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-07-13T10:33:15.801+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c0253a6
+2026-07-13T10:33:15.801+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-07-13T10:33:15.805+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.mapper.BookMapper.insert           : ==>  Preparing: INSERT INTO book (name, author) VALUES (?, ?)
+2026-07-13T10:33:15.806+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.mapper.BookMapper.insert           : ==> Parameters: 謇超(String), non est elit proident(String)
+2026-07-13T10:33:15.893+08:00 ERROR 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.exception.GlobalExceptionHandler   : 服务器异常:
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'author' at row 1
+### The error may exist in file [/Users/zhuzm/code/personal/study/springboot-demo/target/classes/mapper/BookMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: INSERT INTO book (name, author) VALUES (?, ?)
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'author' at row 1
+; Data truncation: Data too long for column 'author' at row 1
+2026-07-13T10:33:15.894+08:00  WARN 14903 --- [springboot-demo] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL>### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'author' at row 1<EOL>### The error may exist in file [/Users/zhuzm/code/personal/study/springboot-demo/target/classes/mapper/BookMapper.xml]<EOL>### The error may involve defaultParameterMap<EOL>### The error occurred while setting parameters<EOL>### SQL: INSERT INTO book (name, author) VALUES (?, ?)<EOL>### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'author' at row 1<EOL>; Data truncation: Data too long for column 'author' at row 1]
+2026-07-13T10:33:26.021+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.interceptor.LoginInterceptor       : Token 验证成功, userId=1, userName=test, uri=/book
+2026-07-13T10:33:26.022+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.controller.BookController          : 添加书籍:謇超
+2026-07-13T10:33:26.025+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.mapper.BookMapper.insert           : ==>  Preparing: INSERT INTO book (name, author) VALUES (?, ?)
+2026-07-13T10:33:26.025+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.mapper.BookMapper.insert           : ==> Parameters: 謇超(String), non est elit(String)
+2026-07-13T10:33:26.028+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.mapper.BookMapper.insert           : <==    Updates: 1
+2026-07-13T10:33:26.034+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.mapper.BookMapper.selectById       : ==>  Preparing: SELECT id, name, author, create_time FROM book WHERE id = ?
+2026-07-13T10:33:26.035+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.mapper.BookMapper.selectById       : ==> Parameters: 3(Long)
+2026-07-13T10:33:26.044+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.mapper.BookMapper.selectById       : <==      Total: 1
+2026-07-13T10:33:26.044+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.service.impl.BookServiceImpl2      : 添加书籍成功謇超
+2026-07-13T10:33:49.385+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:33:49.389+08:00  INFO 14903 --- [springboot-demo] [Thread-45] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:33:49.391+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:33:49.395+08:00  INFO 14903 --- [springboot-demo] [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-07-13T10:33:49.402+08:00  INFO 14903 --- [springboot-demo] [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-07-13T10:33:49.473+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:33:49.474+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:33:49.474+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:33:49.521+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:33:49.521+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:33:49.522+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:33:49.542+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:33:49.542+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:33:49.542+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:33:49.546+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 72 ms
+2026-07-13T10:33:49.599+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:33:49.599+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.133 seconds (process running for 7400.649)
+2026-07-13T10:33:49.599+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:33:49.599+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:33:49.600+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:35:22.826+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:35:22.834+08:00  INFO 14903 --- [springboot-demo] [Thread-49] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:35:22.836+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:35:22.902+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:35:22.902+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:35:22.902+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:35:22.942+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:35:22.942+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:35:22.943+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:35:22.962+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:35:22.962+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:35:22.962+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:35:22.966+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 64 ms
+2026-07-13T10:35:23.070+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:35:23.071+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.176 seconds (process running for 7494.121)
+2026-07-13T10:35:23.071+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:35:23.072+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:35:23.072+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:35:47.257+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T10:35:47.257+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T10:35:47.258+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-13T10:35:47.261+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.interceptor.LoginInterceptor       : Token 验证成功, userId=1, userName=test, uri=/book
+2026-07-13T10:35:47.267+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.controller.BookController          : 添加书籍:冠玉兰
+2026-07-13T10:35:47.268+08:00 ERROR 14903 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.exception.GlobalExceptionHandler   : 服务器异常:Handler dispatch failed: java.lang.Error: Unresolved compilation problem: 
+	Unreachable code
+
+2026-07-13T10:35:47.272+08:00  WARN 14903 --- [springboot-demo] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.Error: Unresolved compilation problem: <EOL>?Unreachable code<EOL>]
+2026-07-13T10:36:41.207+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:36:41.211+08:00  INFO 14903 --- [springboot-demo] [Thread-53] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:36:41.215+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:36:41.283+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:36:41.284+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:36:41.284+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:36:41.332+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:36:41.332+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:36:41.333+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:36:41.352+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:36:41.353+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:36:41.353+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:36:41.357+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 73 ms
+2026-07-13T10:36:41.414+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:36:41.415+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.139 seconds (process running for 7572.464)
+2026-07-13T10:36:41.415+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:36:41.415+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:36:41.415+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:36:44.843+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:36:44.844+08:00  INFO 14903 --- [springboot-demo] [Thread-57] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:36:44.846+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:36:44.904+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:36:44.905+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:36:44.905+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:36:44.939+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:36:44.939+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:36:44.940+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:36:44.957+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:36:44.957+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:36:44.957+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:36:44.960+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 55 ms
+2026-07-13T10:36:45.009+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:36:45.009+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.112 seconds (process running for 7576.059)
+2026-07-13T10:36:45.009+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:36:45.009+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:36:45.009+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:36:54.379+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T10:36:54.379+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T10:36:54.381+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-13T10:36:54.382+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.interceptor.LoginInterceptor       : Token 验证成功, userId=1, userName=test, uri=/book
+2026-07-13T10:36:54.392+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.controller.BookController          : 添加书籍:郝桂兰
+2026-07-13T10:36:54.397+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-07-13T10:36:54.457+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23442c19
+2026-07-13T10:36:54.458+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-07-13T10:36:54.458+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.mapper.BookMapper.insert           : ==>  Preparing: INSERT INTO book (name, author) VALUES (?, ?)
+2026-07-13T10:36:54.458+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.mapper.BookMapper.insert           : ==> Parameters: 郝桂兰(String), ut(String)
+2026-07-13T10:36:54.467+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.mapper.BookMapper.insert           : <==    Updates: 1
+2026-07-13T10:36:54.467+08:00 ERROR 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.exception.GlobalExceptionHandler   : 服务器异常:/ by zero
+2026-07-13T10:36:54.468+08:00  WARN 14903 --- [springboot-demo] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.ArithmeticException: / by zero]
+2026-07-13T10:37:08.618+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:37:08.619+08:00  INFO 14903 --- [springboot-demo] [Thread-61] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:37:08.621+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:37:08.623+08:00  INFO 14903 --- [springboot-demo] [Thread-61] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2026-07-13T10:37:08.626+08:00  INFO 14903 --- [springboot-demo] [Thread-61] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2026-07-13T10:37:08.672+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:37:08.672+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:37:08.672+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:37:08.707+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:37:08.707+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:37:08.708+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:37:08.724+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:37:08.724+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:37:08.724+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:37:08.727+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 54 ms
+2026-07-13T10:37:08.775+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:37:08.776+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.11 seconds (process running for 7599.825)
+2026-07-13T10:37:08.776+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:37:08.776+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:37:08.776+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:37:16.508+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T10:37:16.508+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T10:37:16.509+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-13T10:37:16.510+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.interceptor.LoginInterceptor       : Token 验证成功, userId=1, userName=test, uri=/book
+2026-07-13T10:37:16.516+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.controller.BookController          : 添加书籍:惠哲新
+2026-07-13T10:37:16.516+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-07-13T10:37:16.540+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61ac32aa
+2026-07-13T10:37:16.540+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-07-13T10:37:16.541+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.mapper.BookMapper.insert           : ==>  Preparing: INSERT INTO book (name, author) VALUES (?, ?)
+2026-07-13T10:37:16.541+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.mapper.BookMapper.insert           : ==> Parameters: 惠哲新(String), consectetur(String)
+2026-07-13T10:37:16.543+08:00 DEBUG 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.mapper.BookMapper.insert           : <==    Updates: 1
+2026-07-13T10:37:16.545+08:00 ERROR 14903 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.exception.GlobalExceptionHandler   : 服务器异常:/ by zero
+2026-07-13T10:37:16.547+08:00  WARN 14903 --- [springboot-demo] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.ArithmeticException: / by zero]
+2026-07-13T10:37:40.462+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:37:40.468+08:00  INFO 14903 --- [springboot-demo] [Thread-65] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:37:40.470+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:37:40.474+08:00  INFO 14903 --- [springboot-demo] [Thread-65] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2026-07-13T10:37:40.477+08:00  INFO 14903 --- [springboot-demo] [Thread-65] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2026-07-13T10:37:40.538+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:37:40.538+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:37:40.538+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:37:40.573+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:37:40.573+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:37:40.574+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:37:40.590+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:37:40.590+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:37:40.590+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:37:40.593+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 54 ms
+2026-07-13T10:37:40.637+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:37:40.637+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.105 seconds (process running for 7631.687)
+2026-07-13T10:37:40.637+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:37:40.637+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:37:40.637+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:38:41.602+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:38:41.609+08:00  INFO 14903 --- [springboot-demo] [Thread-69] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:38:41.611+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:38:41.659+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:38:41.659+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:38:41.659+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:38:41.692+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:38:41.693+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:38:41.693+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:38:41.708+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:38:41.708+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:38:41.708+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:38:41.711+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 51 ms
+2026-07-13T10:38:41.753+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:38:41.754+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.101 seconds (process running for 7692.803)
+2026-07-13T10:38:41.754+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:38:41.754+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:38:41.754+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:43:05.661+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 35 class path changes (0 additions, 0 deletions, 35 modifications)
+2026-07-13T10:43:05.670+08:00  INFO 14903 --- [springboot-demo] [Thread-73] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:43:05.673+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:43:05.751+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:43:05.751+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:43:05.751+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:43:05.788+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:43:05.789+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:43:05.790+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:43:05.812+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:43:05.812+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:43:05.812+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:43:05.815+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 62 ms
+2026-07-13T10:43:05.866+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:43:05.866+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.122 seconds (process running for 7956.913)
+2026-07-13T10:43:05.867+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:43:05.867+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:43:05.867+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:44:48.219+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:44:48.228+08:00  INFO 14903 --- [springboot-demo] [Thread-77] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:44:48.231+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:44:48.334+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:44:48.334+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:44:48.334+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:44:48.372+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:44:48.372+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:44:48.373+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:44:48.390+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:44:48.390+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:44:48.390+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:44:48.395+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 61 ms
+2026-07-13T10:44:48.442+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:44:48.443+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.117 seconds (process running for 8059.489)
+2026-07-13T10:44:48.443+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:44:48.443+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:44:48.443+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:45:11.063+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:45:11.065+08:00  INFO 14903 --- [springboot-demo] [Thread-81] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:45:11.068+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:45:11.125+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:45:11.125+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:45:11.125+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:45:11.162+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:45:11.162+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:45:11.163+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:45:11.178+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:45:11.178+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:45:11.178+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:45:11.181+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 55 ms
+2026-07-13T10:45:11.225+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:45:11.226+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.107 seconds (process running for 8082.272)
+2026-07-13T10:45:11.226+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:45:11.226+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:45:11.226+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:46:05.294+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T10:46:05.294+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T10:46:05.296+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-13T10:46:05.299+08:00  WARN 14903 --- [springboot-demo] [http-nio-8080-exec-1] c.s.s.interceptor.LoginInterceptor       : 未携带 Token, uri=/actuator/health
+2026-07-13T10:46:05.300+08:00  WARN 14903 --- [springboot-demo] [http-nio-8080-exec-1] c.s.s.exception.GlobalExceptionHandler   : 业务异常,code:401,msg:unauthorized
+2026-07-13T10:46:05.303+08:00  WARN 14903 --- [springboot-demo] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.study.springbootdemo.common.BusinessException: unauthorized]
+2026-07-13T10:46:20.233+08:00  INFO 14903 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:46:20.235+08:00  INFO 14903 --- [springboot-demo] [Thread-85] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:46:20.237+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:46:20.319+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 14903 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:46:20.319+08:00 DEBUG 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:46:20.319+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:46:20.357+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:46:20.357+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:46:20.359+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:46:20.384+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:46:20.384+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:46:20.384+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:46:20.388+08:00  INFO 14903 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 68 ms
+2026-07-13T10:46:20.451+08:00  INFO 14903 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:46:20.451+08:00  INFO 14903 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.14 seconds (process running for 8151.497)
+2026-07-13T10:46:20.451+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:46:20.451+08:00  WARN 14903 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:46:20.451+08:00  INFO 14903 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:46:21.690+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T10:46:21.690+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T10:46:21.691+08:00  INFO 14903 --- [springboot-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-13T10:46:21.691+08:00  WARN 14903 --- [springboot-demo] [http-nio-8080-exec-1] c.s.s.interceptor.LoginInterceptor       : 未携带 Token, uri=/actuator/health
+2026-07-13T10:46:21.692+08:00  WARN 14903 --- [springboot-demo] [http-nio-8080-exec-1] c.s.s.exception.GlobalExceptionHandler   : 业务异常,code:401,msg:unauthorized
+2026-07-13T10:46:21.695+08:00  WARN 14903 --- [springboot-demo] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.study.springbootdemo.common.BusinessException: unauthorized]
+2026-07-13T10:46:27.670+08:00  INFO 14903 --- [springboot-demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:46:27.675+08:00  INFO 14903 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:46:30.171+08:00  INFO 66016 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 66016 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:46:30.171+08:00 DEBUG 66016 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:46:30.172+08:00  INFO 66016 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:46:30.193+08:00  INFO 66016 --- [springboot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-13T10:46:30.193+08:00  INFO 66016 --- [springboot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-13T10:46:30.459+08:00  INFO 66016 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:46:30.460+08:00  INFO 66016 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:46:30.471+08:00  INFO 66016 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:46:30.694+08:00  INFO 66016 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:46:30.700+08:00  INFO 66016 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:46:30.700+08:00  INFO 66016 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:46:30.712+08:00  INFO 66016 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 519 ms
+2026-07-13T10:46:30.863+08:00  WARN 66016 --- [springboot-demo] [restartedMain] i.n.r.d.DnsServerAddressStreamProviders  : Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2026-07-13T10:46:31.150+08:00  INFO 66016 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:46:31.153+08:00  INFO 66016 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 1.144 seconds (process running for 1.298)
+2026-07-13T10:46:31.154+08:00  WARN 66016 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:46:31.154+08:00  WARN 66016 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:46:43.396+08:00  INFO 66016 --- [springboot-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T10:46:43.397+08:00  INFO 66016 --- [springboot-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T10:46:43.398+08:00  INFO 66016 --- [springboot-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-13T10:46:43.405+08:00  WARN 66016 --- [springboot-demo] [http-nio-8080-exec-1] c.s.s.interceptor.LoginInterceptor       : 未携带 Token, uri=/actuator/health
+2026-07-13T10:46:43.407+08:00  WARN 66016 --- [springboot-demo] [http-nio-8080-exec-1] c.s.s.exception.GlobalExceptionHandler   : 业务异常,code:401,msg:unauthorized
+2026-07-13T10:46:43.447+08:00  WARN 66016 --- [springboot-demo] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.study.springbootdemo.common.BusinessException: unauthorized]
+2026-07-13T10:47:33.652+08:00  WARN 66016 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.interceptor.LoginInterceptor       : 未携带 Token, uri=/actuator/health
+2026-07-13T10:47:33.653+08:00  WARN 66016 --- [springboot-demo] [http-nio-8080-exec-2] c.s.s.exception.GlobalExceptionHandler   : 业务异常,code:401,msg:unauthorized
+2026-07-13T10:47:33.655+08:00  WARN 66016 --- [springboot-demo] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.study.springbootdemo.common.BusinessException: unauthorized]
+2026-07-13T10:48:37.439+08:00 DEBUG 66016 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.interceptor.LoginInterceptor       : Token 验证成功, userId=1, userName=test, uri=/actuator/health
+2026-07-13T10:48:37.441+08:00 ERROR 66016 --- [springboot-demo] [http-nio-8080-exec-4] c.s.s.exception.GlobalExceptionHandler   : 服务器异常:No static resource actuator/health for request '/actuator/health'.
+2026-07-13T10:48:37.443+08:00  WARN 66016 --- [springboot-demo] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource actuator/health for request '/actuator/health'.]
+2026-07-13T10:50:00.463+08:00  INFO 66016 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T10:50:00.471+08:00  INFO 66016 --- [springboot-demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:50:00.476+08:00  INFO 66016 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:50:00.526+08:00  INFO 66016 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 66016 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:50:00.526+08:00 DEBUG 66016 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:50:00.526+08:00  INFO 66016 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:50:00.585+08:00  INFO 66016 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:50:00.586+08:00  INFO 66016 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:50:00.587+08:00  INFO 66016 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:50:00.619+08:00  INFO 66016 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:50:00.620+08:00  INFO 66016 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:50:00.620+08:00  INFO 66016 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:50:00.624+08:00  INFO 66016 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 97 ms
+2026-07-13T10:50:00.724+08:00  INFO 66016 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:50:00.725+08:00  INFO 66016 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.21 seconds (process running for 210.87)
+2026-07-13T10:50:00.725+08:00  WARN 66016 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:50:00.725+08:00  WARN 66016 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:50:00.726+08:00  INFO 66016 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T10:50:13.307+08:00  INFO 66016 --- [springboot-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T10:50:13.307+08:00  INFO 66016 --- [springboot-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T10:50:13.307+08:00  INFO 66016 --- [springboot-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-13T10:50:13.309+08:00 ERROR 66016 --- [springboot-demo] [http-nio-8080-exec-1] c.s.s.exception.GlobalExceptionHandler   : 服务器异常:No static resource actuator/health for request '/actuator/health'.
+2026-07-13T10:50:13.311+08:00  WARN 66016 --- [springboot-demo] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource actuator/health for request '/actuator/health'.]
+2026-07-13T10:50:24.354+08:00  INFO 66016 --- [springboot-demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T10:50:24.356+08:00  INFO 66016 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T10:50:26.303+08:00  INFO 71234 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 71234 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T10:50:26.304+08:00 DEBUG 71234 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T10:50:26.305+08:00  INFO 71234 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T10:50:26.324+08:00  INFO 71234 --- [springboot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-13T10:50:26.324+08:00  INFO 71234 --- [springboot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-13T10:50:26.583+08:00  INFO 71234 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T10:50:26.584+08:00  INFO 71234 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T10:50:26.611+08:00  INFO 71234 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2026-07-13T10:50:26.832+08:00  INFO 71234 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T10:50:26.838+08:00  INFO 71234 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T10:50:26.838+08:00  INFO 71234 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T10:50:26.851+08:00  INFO 71234 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 527 ms
+2026-07-13T10:50:26.998+08:00  WARN 71234 --- [springboot-demo] [restartedMain] i.n.r.d.DnsServerAddressStreamProviders  : Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2026-07-13T10:50:27.297+08:00  INFO 71234 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T10:50:27.301+08:00  INFO 71234 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 1.155 seconds (process running for 1.298)
+2026-07-13T10:50:27.302+08:00  WARN 71234 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T10:50:27.302+08:00  WARN 71234 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T10:50:38.520+08:00  INFO 71234 --- [springboot-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T10:50:38.520+08:00  INFO 71234 --- [springboot-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T10:50:38.521+08:00  INFO 71234 --- [springboot-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-13T10:50:38.530+08:00 ERROR 71234 --- [springboot-demo] [http-nio-8080-exec-1] c.s.s.exception.GlobalExceptionHandler   : 服务器异常:No static resource actuator/health for request '/actuator/health'.
+2026-07-13T10:50:38.557+08:00  WARN 71234 --- [springboot-demo] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource actuator/health for request '/actuator/health'.]
+2026-07-13T11:16:08.327+08:00  INFO 71234 --- [springboot-demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T11:16:08.342+08:00  INFO 71234 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T11:16:14.313+08:00  INFO 98774 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 98774 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T11:16:14.314+08:00 DEBUG 98774 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T11:16:14.314+08:00  INFO 98774 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T11:16:14.337+08:00  INFO 98774 --- [springboot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-13T11:16:14.337+08:00  INFO 98774 --- [springboot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-13T11:16:14.682+08:00  INFO 98774 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T11:16:14.683+08:00  INFO 98774 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T11:16:14.694+08:00  INFO 98774 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2026-07-13T11:16:14.937+08:00  INFO 98774 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T11:16:14.943+08:00  INFO 98774 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T11:16:14.943+08:00  INFO 98774 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T11:16:14.955+08:00  INFO 98774 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 618 ms
+2026-07-13T11:16:15.126+08:00  WARN 98774 --- [springboot-demo] [restartedMain] i.n.r.d.DnsServerAddressStreamProviders  : Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2026-07-13T11:16:15.511+08:00  INFO 98774 --- [springboot-demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-07-13T11:16:15.540+08:00  INFO 98774 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T11:16:15.547+08:00  INFO 98774 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 1.372 seconds (process running for 1.606)
+2026-07-13T11:16:15.549+08:00  WARN 98774 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T11:16:15.549+08:00  WARN 98774 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T11:16:17.694+08:00  INFO 98774 --- [springboot-demo] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T11:16:17.694+08:00  INFO 98774 --- [springboot-demo] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T11:16:17.695+08:00  INFO 98774 --- [springboot-demo] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-13T11:16:29.141+08:00  INFO 98774 --- [springboot-demo] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-13T11:16:29.257+08:00  INFO 98774 --- [springboot-demo] [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45d8aeed
+2026-07-13T11:16:29.258+08:00  INFO 98774 --- [springboot-demo] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-13T11:17:31.600+08:00  INFO 98774 --- [springboot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-13T11:17:31.602+08:00  INFO 98774 --- [springboot-demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T11:17:31.604+08:00  INFO 98774 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T11:17:31.615+08:00  INFO 98774 --- [springboot-demo] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-13T11:17:31.618+08:00  INFO 98774 --- [springboot-demo] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-13T11:17:31.672+08:00  INFO 98774 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Starting SpringbootDemoApplication using Java 21.0.11 with PID 98774 (/Users/zhuzm/code/personal/study/springboot-demo/target/classes started by zhuzm in /Users/zhuzm/code/personal/study)
+2026-07-13T11:17:31.672+08:00 DEBUG 98774 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-13T11:17:31.672+08:00  INFO 98774 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : The following 1 profile is active: "dev"
+2026-07-13T11:17:31.743+08:00  INFO 98774 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-07-13T11:17:31.743+08:00  INFO 98774 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-07-13T11:17:31.745+08:00  INFO 98774 --- [springboot-demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2026-07-13T11:17:31.790+08:00  INFO 98774 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-13T11:17:31.790+08:00  INFO 98774 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T11:17:31.790+08:00  INFO 98774 --- [springboot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-13T11:17:31.794+08:00  INFO 98774 --- [springboot-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 121 ms
+2026-07-13T11:17:31.913+08:00  INFO 98774 --- [springboot-demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-07-13T11:17:31.919+08:00  INFO 98774 --- [springboot-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T11:17:31.921+08:00  INFO 98774 --- [springboot-demo] [restartedMain] c.s.s.SpringbootDemoApplication          : Started SpringbootDemoApplication in 0.259 seconds (process running for 77.981)
+2026-07-13T11:17:31.922+08:00  WARN 98774 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-13T11:17:31.922+08:00  WARN 98774 --- [springboot-demo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-13T11:17:31.922+08:00  INFO 98774 --- [springboot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-13T11:17:35.320+08:00  INFO 98774 --- [springboot-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T11:17:35.320+08:00  INFO 98774 --- [springboot-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T11:17:35.321+08:00  INFO 98774 --- [springboot-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-13T11:17:35.322+08:00  INFO 98774 --- [springboot-demo] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-07-13T11:17:35.359+08:00  INFO 98774 --- [springboot-demo] [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f8026bf
+2026-07-13T11:17:35.359+08:00  INFO 98774 --- [springboot-demo] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-07-13T14:35:39.148+08:00  INFO 98774 --- [springboot-demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T14:35:39.155+08:00  INFO 98774 --- [springboot-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-13T14:35:39.164+08:00  INFO 98774 --- [springboot-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-07-13T14:35:39.167+08:00  INFO 98774 --- [springboot-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.

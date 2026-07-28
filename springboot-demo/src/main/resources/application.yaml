@@ -1,0 +1,51 @@
+spring:
+  application:
+    name: springboot-demo
+  profiles:
+    active: dev
+  cache:
+    type: redis
+    redis:
+      time-to-live: 60000 # 缓存时间（毫秒）
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml # XML 文件位置
+  type-aliases-package: com.study.springbootdemo.entity # 实体类包，XML 里可简写类名
+  configuration:
+    map-underscore-to-camel-case: true # 数据库下划线 → Java 驼峰（book_name → bookName）
+    # log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 控制台打印 SQL
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl # 使用 SLF4J 实现
+
+jwt:
+  secret: study-demo-jwt-secret-key-2026-min-32-chars  # 至少 32 字符 签名密钥
+  expiration: 86400000 # 24 小时（毫秒）Token 有效期
+
+logging:
+  level:
+  # 全局默认 INFO，第三方库不会刷屏
+    root: INFO 
+    # 自己项目里的 DEBUG 日志可见（含拦截器里的 debug）
+    com.study.springbootdemo: DEBUG  
+    # 只看 Mapper 的 SQL
+    com.study.springbootdemo.mapper: DEBUG  
+  # 日志文件配置
+  file:
+    name: logs/springboot-demo.log  # 日志文件路径
+    max-history: 30  # 保留 30 天日志
+    max-size: 50MB  # 单个文件最大 50MB
+    file-size: 10MB  # 日志文件超过 10MB 时滚动
+    total-size-cap: 100MB  # 总日志文件大小不超过 100MB
+    file-name-pattern: springboot-demo-%d{yyyy-MM-dd}.log  # 日志文件名格式
+    include-caller-data: true  # 包含调用者数据
+    include-thread-name: true  # 包含线程名称
+    include-log-name: true  # 包含日志名称
+    include-level: true  # 包含日志级别
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics   # 开发环境可先暴露这些.哪些端点可通过 HTTP 访问
+  endpoint:
+    health:
+      show-details: when_authorized    # 或 dev 下用 always,显示详细信息 d

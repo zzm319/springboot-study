@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/study_db
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      host: localhost
+      port: 6380
+      database: 0
+
+  cache:
+    type: redis
+
+jwt:
+  secret: study-demo-jwt-secret-key-2026-min-32-chars
+
+logging:
+  level:
+    root: INFO
+    com.study.springbootdemo: DEBUG
+    com.study.springbootdemo.mapper: DEBUG
+  file:
+    name: logs/springboot-demo.log

@@ -1,0 +1,75 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql-qd
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: study_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - study-mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+#build: ./springboot-demo            用该目录的 Dockerfile 构建
+#depends_on + healthcheck            MySQL 就绪后再启 app
+#DB_HOST: mysql                      容器内用服务名连库
+#SPRING_PROFILES_ACTIVE: prod        用 prod 配置
+  app:
+    build: .
+    container_name: study-app
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      DB_HOST: mysql #或者用mysql-qd容器名连接也可以，同一 Compose 网络里，Docker 内置 DNS 会给每个容器注册多个主机名
+      # DB_HOST: study-mysql
+      # DB_HOST: host.docker.internal //拿另一个容器起的mysql
+      DB_PASSWORD: 123456
+      JWT_SECRET: study-demo-jwt-secret-key-2026-min-32-chars
+      REDIS_HOST: redis
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/actuator/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  redis:
+    image: redis:7
+    container_name: redis-qd
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  study-mysql-data:
+
+  # 构建 app 镜像并启动所有服务
+  # docker compose up --build -d
+  # up 启动服务
+  # --build 重新构建 app 镜像
+  # -d 后台运行
+
+  # docker compose ps
+  # docker compose logs -f app
+  # ps 查看服务状态
+  # logs -f app 查看 app 服务日志 
+
+  # docker compose down
+  # down 停止并删除服务
+
+ 
