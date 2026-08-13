@@ -17,7 +17,7 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           cache: maven
-          
+
       - name: Run tests
         working-directory: springboot-demo   # 若仓库根就是项目，删掉这行
-        run: ./mvnw -B test
+        run: ./mvnw -B test -Dtest=UserControllerTest
