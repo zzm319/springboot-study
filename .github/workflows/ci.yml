@@ -27,7 +27,7 @@ jobs:
     needs: test # 依赖 test 任务,测试通过才构建
     permissions:
       contents: read
-      packages: write   # 推 GHCR 必须 
+      packages: write   # 推 GHCR 必须
 
     steps:
       - uses: actions/checkout@v4
@@ -38,7 +38,11 @@ jobs:
           registry: ghcr.io  # 使用 GitHub Container Registry，GitHub 容器仓库
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-    
+
+      # type=gha 缓存需要 docker-container 驱动，不能用默认 docker 驱动
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
