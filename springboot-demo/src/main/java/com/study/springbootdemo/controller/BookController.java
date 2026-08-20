@@ -16,6 +16,7 @@ import com.study.springbootdemo.dto.BookUpdateDto;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.security.access.prepost.PreAuthorize;
 
 @RestController
 public class BookController {
@@ -112,6 +113,7 @@ public class BookController {
         return Result.success(bookVo);
     }
 
+    @PreAuthorize("hasRole('admin')")
     @DeleteMapping("/book/{id}")
     public Result<String> deleteBook(@PathVariable long id) {
         logger.info("删除书籍:{}", id);

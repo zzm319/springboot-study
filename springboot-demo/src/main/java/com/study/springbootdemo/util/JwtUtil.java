@@ -26,11 +26,12 @@ public class JwtUtil {
     }
 
     // 生成 JWT
-    public String generateToken(int userId, String userName) {
+    public String generateToken(int userId, String userName, String role) {
         Date now = new Date();
         return Jwts.builder()
                 .subject(userName)
                 .claim("userId", userId)
+                .claim("role", role)
                 .issuedAt(now)
                 .expiration(new Date(now.getTime() + expiration))
                 .signWith(secretKey())

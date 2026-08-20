@@ -6,6 +6,7 @@ public class UserVo {
     private int id;
     private String username;
     private LocalDateTime createTime;
+    private String role;
 
     public int getId() {
         return id;
@@ -29,5 +30,12 @@ public class UserVo {
 
     public void setCreateTime(LocalDateTime createTime) {
         this.createTime = createTime;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+    public String getRole() {
+        return role;
     }
 }

@@ -11,7 +11,8 @@ import org.springframework.http.ResponseEntity;
 import com.study.springbootdemo.common.ResultCode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+import org.springframework.security.access.AccessDeniedException;
+import org.springframework.security.authorization.AuthorizationDeniedException;
 @RestControllerAdvice // = @ControllerAdvice + @ResponseBody，拦截所有 Controller 异常，直接返回 JSON
 public class GlobalExceptionHandler {
 
@@ -52,4 +53,15 @@ public class GlobalExceptionHandler {
         logger.error("服务器异常:{}", e.getMessage());
         return Result.error(ResultCode.SERVER_ERROR, "服务器异常");
     }
+
+    @ExceptionHandler({
+        AccessDeniedException.class,
+        AuthorizationDeniedException.class
+    })
+    @ResponseStatus(HttpStatus.FORBIDDEN)
+    public Result<Void> handleAccessDenied(Exception e) {
+        logger.warn("无权限: {}", e.getMessage());
+        return Result.error(ResultCode.FORBIDDEN, "Access denied");
+    }
+    
 }

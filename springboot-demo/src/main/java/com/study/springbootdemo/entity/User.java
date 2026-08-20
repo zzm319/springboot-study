@@ -7,10 +7,12 @@ public class User {
     private String username;
     private String password;
     private LocalDateTime createTime;
+    private String role;
 
-    public User(String username, String password){
+    public User(String username, String password,String role){
         this.username = username;
         this.password = password;
+        this.role = role;
     }
 
     public int getId() {
@@ -43,5 +45,13 @@ public class User {
 
     public void setCreate_time(LocalDateTime createTime) {
         this.createTime = createTime;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 }

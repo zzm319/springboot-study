@@ -42,7 +42,8 @@ public class UserServiceImpl implements UserService {
             throw new BusinessException(ResultCode.BAD_REQUEST,"用户已存在");
         }
         String encodedPassword = passwordEncoder.encode(userDTO.getPassword());
-        User user1 = new User(userDTO.getUsername(),encodedPassword);
+        String role = "admin".equals(userDTO.getUsername()) ? "admin" : "user";
+        User user1 = new User(userDTO.getUsername(), encodedPassword, role);
         userMapper.insertUser(user1);
         User user2 = userMapper.selectUserById(user1.getId());
         logger.info("用户注册成功, username={}, id={}",user2.getUsername(), user2.getId());
@@ -64,7 +65,7 @@ public class UserServiceImpl implements UserService {
         LoginVo loginVo = new LoginVo();
         loginVo.setId(user.getId());
         loginVo.setUsername(user.getUsername());
-        String token = jwtUtil.generateToken(user.getId(), user.getUsername());
+        String token = jwtUtil.generateToken(user.getId(), user.getUsername(), user.getRole());
         loginVo.setToken(token);
         logger.info("用户登录成功,username={}",loginVo.getUsername());
         return loginVo;

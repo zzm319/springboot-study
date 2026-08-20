@@ -25,20 +25,20 @@ public class WebMvcConfig implements WebMvcConfigurer {
         this.loginInterceptor = loginInterceptor;
     }
 
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(loginInterceptor)
-                .addPathPatterns("/**") // 拦截所有路径
-                .excludePathPatterns( // 以下不拦截（白名单）
-                        "/auth/login",
-                        "/auth/register",
-                        "/error",
-                        "/swagger-ui/**",
-                        "/swagger-ui.html",
-                        "/v3/api-docs/**",
-                        "/v3/api-docs",
-                        "/actuator/**");
-    }
+    // @Override
+    // public void addInterceptors(InterceptorRegistry registry) {
+    //     registry.addInterceptor(loginInterceptor)
+    //             .addPathPatterns("/**") // 拦截所有路径
+    //             .excludePathPatterns( // 以下不拦截（白名单）
+    //                     "/auth/login",
+    //                     "/auth/register",
+    //                     "/error",
+    //                     "/swagger-ui/**",
+    //                     "/swagger-ui.html",
+    //                     "/v3/api-docs/**",
+    //                     "/v3/api-docs",
+    //                     "/actuator/**");
+    // }
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
