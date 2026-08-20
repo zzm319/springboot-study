@@ -41,12 +41,12 @@ jobs:
     
       - name: Build and push
         uses: docker/build-push-action@v6
-        cache-from: type=gha
-        cache-to: type=gha,mode=max # 缓存到 GitHub Actions 缓存
         with:
           context: springboot-demo          # Dockerfile 所在目录
           file: springboot-demo/Dockerfile  # 可省略，默认找 context 下 Dockerfile
           push: true
+          cache-from: type=gha
+          cache-to: type=gha,mode=max       # 缓存到 GitHub Actions 缓存
           tags: |
             ghcr.io/${{ github.repository_owner }}/study/springboot-demo:latest
             ghcr.io/${{ github.repository_owner }}/study/springboot-demo:sha-${{ github.sha }}
